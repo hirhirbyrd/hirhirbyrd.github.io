@@ -20,13 +20,11 @@ a:visited {
 }
 
 .block {
-    background-color: rgba(51,51,51,.5);
     display: block;
     position: relative;
     top: 100px;
     left: 200px;
     width: 390px;
-    border-radius: 10px 10px 10px 10px;
     transform: translateY(10%);
     max-width: 100%;
 }
@@ -48,8 +46,6 @@ footer {
     top: 29px;
 }
 
-
-
 .rusk-image {
     position: absolute;
     width: 100vw;
@@ -67,21 +63,27 @@ footer {
         background-position: right -150px top 25px;
         background-size: 720px;
     }
+
+    .block {
+        background-color: rgba(51,51,51,.5);
+        border-radius: 10px 10px 10px 10px;
+    }
 }
 @media screen and (max-width: 1100px) {
 
     .block {
-        position:relative;
+        position: relative;
         top: 100px;
-        right:0vw;
+        right: 0vw;
         left: 0.9vw;
         transform: translateX(10%);
+        padding: 1.5vw;
     }
 
     .title_image {
         width: 330px;
         right: unset;
-        top: unset;
+        top: -10px;
     }
 }
 @media screen and (max-width: 880px) {
@@ -116,6 +118,9 @@ footer {
         top: 0px;
         font-size: 1.6vw;
         width: 40vw;
+        background-color: rgba(51,51,51,.5);
+        border-radius: 10px 10px 10px 10px;
+        padding: 1vw;
     }
 
     .rusk-image {
