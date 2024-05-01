@@ -73,7 +73,6 @@ footer {
 @media screen and (max-width: 1100px) {
 
     .block {
-        position: relative;
         top: 100px;
         right: 0vw;
         left: 0.9vw;
@@ -98,7 +97,10 @@ footer {
     .block {
         font-size: 3.2vw;
         width: 80vw;
-        transform: translateX(10%);
+        transform: translateX(-1.3vw);
+        right: unset;
+        left: unset;
+        margin: 0 auto;
     }
 
     .rusk-image {
