@@ -38,7 +38,7 @@ h3 {
 }
 
 footer {
-    font-size: 12px;
+    font-size: 75%;
 }
 
 
@@ -85,8 +85,8 @@ img[src$="rusk.png"] {
 
     .block {
         top: 350px;
-        font-size: 60%;
-        width: 240px;
+        font-size: 3.2vw;
+        width: 80vw;
         transform: translateX(10%);
     }
 }
@@ -95,8 +95,8 @@ img[src$="rusk.png"] {
 
     .block {
         top: 100px;
-        font-size: 60%;
-        width: 240px;
+        font-size: 1.6vw;
+        width: 40vw;
     }
 
     img[src$="rusk.png"] {
