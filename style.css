@@ -59,7 +59,6 @@ footer {
     background-size: 1024px;
     background-repeat: no-repeat;
     overflow: clip;
-    margin: 0 auto;
     max-width: 100%;
 }
 
@@ -114,15 +113,15 @@ footer {
 @media screen and (max-height: 460px) {
 
     .block {
-        top: 100px;
+        top: 0px;
         font-size: 1.6vw;
         width: 40vw;
     }
 
     .rusk-image {
-
         background-position: right -280px top 15px;
         transform: translateX(10%);
+        height: 150vw;
     }
 
     .title_image {
