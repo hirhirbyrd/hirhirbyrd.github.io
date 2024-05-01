@@ -1,27 +1,10 @@
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #333333;
-        color: #f4f5f7;
-    }
 
-    .block {
-        background-color: rgba(51,51,51,.5);
-    }
-}
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #f4f5f7;
-        color: #333333;
-    }
-
-    .block {
-        background-color: rgba(244,245,247,.5);
-    }
-}
 
 body {
     font-family: 'Nunito', "BIZ UDゴシック", 'BIZ UDGothic', "Meiryo UI", MeiryoUI, "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
     overflow: hidden;
+    background-color: #333333;
+    color: #f4f5f7;
 }
 
 a:link {
@@ -35,6 +18,7 @@ a:visited {
 }
 
 .block {
+    background-color: rgba(51,51,51,.5);
     display: block;
     position: relative;
     top: 100px;
