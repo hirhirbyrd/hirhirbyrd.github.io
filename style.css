@@ -84,6 +84,14 @@ img[src$="rusk.png"] {
         transform: translateX(10%);
     }
 }
+@media screen and (max-width: 880px) {
+
+    .block {
+        top: 350px;
+
+    }
+}
+
 @media screen and (max-width: 600px) {
     img[src$="rusk.png"] {
         right: 0px;
@@ -98,7 +106,8 @@ img[src$="rusk.png"] {
         transform: translateX(10%);
     }
 }
-@media screen and (max-height: 460px){
+
+@media screen and (max-height: 460px) {
 
     .block {
         top: 100px;
@@ -106,4 +115,10 @@ img[src$="rusk.png"] {
         width: 240px;
     }
 
+    img[src$="rusk.png"] {
+        top: 15px;
+        right: -300px;
+        left: unset;
+        transform: translateX(10%);
+    }
 }
