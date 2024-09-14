@@ -51,8 +51,8 @@ footer {
     width: 100vw;
     height: 100%;
     background-position: right -280px top 25px;
-    background-image: url("rusk.gif");
-    background-image: image-set( url("rusk.avif") type("image/avif"), url("rusk.png") type("image/png"));
+    background-image: url("torirobot.gif");
+    background-image: image-set( url("torirobot.avif") type("image/avif"), url("torirobot.png") type("image/png"));
     background-size: 1024px;
     background-repeat: no-repeat;
     overflow: clip;
