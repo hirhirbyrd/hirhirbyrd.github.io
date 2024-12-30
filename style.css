@@ -59,6 +59,10 @@ footer {
     max-width: 100%;
 }
 
+.exophase {
+    max-width: 100%;
+}
+
 @media screen and (max-width: 1366px) {
     .rusk-image {
         background-position: right -35px top 25px;
@@ -91,6 +95,10 @@ footer {
     .block {
         top: unset;
         bottom: -50vh;
+    }
+
+    .exophase {
+        max-width: 90%;
     }
 }
 
