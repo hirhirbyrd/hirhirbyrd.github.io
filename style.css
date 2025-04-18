@@ -51,8 +51,6 @@ footer {
     width: 100vw;
     height: 100%;
     background-position: right -45px top 25px;
-    background-image: url("qpro.gif");
-    background-image: image-set( url("qpro.avif") type("image/avif"), url("qpro.png") type("image/png"));
     background-size: 1024px;
     background-repeat: no-repeat;
     overflow: clip;
