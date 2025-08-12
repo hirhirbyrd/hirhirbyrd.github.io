@@ -1,0 +1,140 @@
+
+
+body {
+    font-family: 'Nunito', "BIZ UDゴシック", 'BIZ UDGothic', "Meiryo UI", MeiryoUI, "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
+    overflow: hidden;
+    background-color: #333333;
+    color: #f4f5f7;
+    width: 100vw;
+    height: 100%;
+}
+
+a:link {
+    color: #a0c238;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b8df40;
+    text-decoration: none;
+}
+
+.block {
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 390px;
+    transform: translateY(10%);
+    max-width: 100%;
+    margin-top: 2vh;
+}
+
+
+h3 {
+    font-size: 24px;
+    top: 50px;
+}
+
+footer {
+    font-size: 75%;
+}
+
+.title_image {
+    width: 330px;
+    position: relative;
+    right: 113px;
+    top: 29px;
+}
+
+.rusk-image {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-position: right -280px top 25px;
+    background-image: url("rusk.gif");
+    background-image: image-set( url("rusk.avif") type("image/avif"), url("rusk.png") type("image/png"));
+    background-size: 1024px;
+    background-repeat: no-repeat;
+    overflow: clip;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+    .rusk-image {
+        background-position: right -150px top 25px;
+        background-size: 720px;
+    }
+
+    .block {
+        background-color: rgba(51,51,51,.5);
+        border-radius: 10px 10px 10px 10px;
+        padding: 1.5vw;
+    }
+}
+@media screen and (max-width: 1100px) {
+
+    .block {
+        top: 100px;
+        right: 0vw;
+        left: 0.9vw;
+        transform: translateX(10%);
+    }
+
+    .title_image {
+        width: 330px;
+        right: unset;
+        top: -10px;
+    }
+}
+@media screen and (max-width: 950px) {
+
+    .block {
+        top: 350px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .block {
+        font-size: 3.2vw;
+        width: 80vw;
+        transform: translateX(-1.3vw);
+        right: unset;
+        left: unset;
+        margin: 0 auto;
+        margin-top: 2vh;
+    }
+
+    .rusk-image {
+        background-position: left top 15px;
+        background-size: 720px;
+    }
+
+    .title_image {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-height: 460px) {
+
+    .block {
+        top: 0px;
+        font-size: 1.6vw;
+        width: 40vw;
+        background-color: rgba(51,51,51,.5);
+        border-radius: 10px 10px 10px 10px;
+        padding: 1vw;
+    }
+
+    .rusk-image {
+        background-position: right -250px top -20px;
+        transform: translateX(10%);
+        height: 150vw;
+    }
+
+    .title_image {
+        width: 32vw;
+        top: 1.2vw;
+    }
+}
